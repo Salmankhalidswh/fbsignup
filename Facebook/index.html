@@ -1,46 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-    <div class="overlay">
-    </div>
+  <body>
+    <div class="overlay"></div>
 
     <div class="signup">
-        <div class="sign-up-title">
-            <p>Sign Up</p>
+      <div class="sign-up-title">
+        <p>Sign Up</p>
+      </div>
+      <div class="quick">It's quick and easy.</div>
+      <div class="close-img">
+        <img
+          src="https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/__geKiQnSG-.png"
+          alt="close"
+        />
+      </div>
+      <hr />
+      <form class="signupForm">
+        <div class="full-name">
+          <input
+            type="text"
+            class="name"
+            name="fname"
+            placeholder="First Name"
+          />
+
+          <input type="text" class="name" name="sname" placeholder="Surname" />
         </div>
-        <div class="quick">It's quick and easy.
+        <div>
+          <input
+            type="text"
+            class="email"
+            name="email"
+            placeholder="Mobile Number or Email"
+          />
         </div>
-        <div class="close-img">
-            <img src="https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/__geKiQnSG-.png" alt="close">
-
-
+        <div>
+          <input
+            type="password"
+            class="pass"
+            name="password"
+            placeholder="Password"
+          />
         </div>
-        <hr>
-        <form class="signupForm">
-            <div class="full-name">
-                <input type="text" class="name" name="fname" placeholder="First Name" />
 
-                <input type="text" class="name" name="sname" placeholder="Surname" />
-            </div>
-            <div>
-                <input type="text" class="email" name="email" placeholder="Mobile Number or Email" />
-            </div>
-            <div>
-                <input type="password" class="pass" name="password" placeholder="Password" />
-            </div>
-
-            <div>
-                <div>
-                    <label for="Date of birth" class="dblabel">Date of birth <img src="image.png" alt="Que" id="que" /></label
+        <div>
+          <div>
+            <label for="Date of birth" class="dblabel"
+              >Date of birth <img src="image.png" alt="Que" id="que" /></label
             ><br />
           </div>
           <span class="dob-selector"
@@ -95,7 +109,6 @@
                 name="birthday_year"
                 id="year"
                 title="Year"
-                class="_9407 _5dba _9hk6 _8esg"
               >
                 <option value="2022" selected="1">2022</option>
                 <option value="2021">2021</option>
@@ -219,144 +232,319 @@
             ></span
           >
         </div>
-        
+
         <div>
-    <label for="Gender" class="gender-label">Gender <img src="image.png" alt="Que" id="que" /></label
-        ><br />
-    </div>
-<div class="gender-div">
-
-    <div class="gender-selector">
-        <label>Female</label>
-                    <input class="gender-format" id="female" type="radio" name="sex" />
-                </div>
-                <div class="gender-selector">
-
-                    <label>Male</label>
-                    <input class="gender-format" type="radio" name="sex" />
-                </div>
-                <div class="gender-selector">
-                    <label>Custom</label>
-                    <input class="gender-format" type="radio" name="sex" />
-                </div>
-            </div>
-            <div>
-                <p class="toc">
-                    By clicking Sign Up, you agree to our<a href="#"> Terms</a>,
-                    <a href="#"> Data Policy</a> and <a href="#">Cookie Policy</a>. You<br> may receive SMS notifications from us and can opt out at any time.
-                </p>
-            </div>
-            <div class="sign-up-btn-div">
-                <button class="sign-up-btn">Sign Up</button>
-            </div>
-        </form>
-
+          <label for="Gender" class="gender-label"
+            >Gender <img src="image.png" alt="Que" id="que" /></label
+          ><br />
+        </div>
+        <div class="gender-div">
+          <div class="gender-selector">
+            <label>Female</label>
+            <input class="gender-format" id="female" type="radio" name="sex" />
+          </div>
+          <div class="gender-selector">
+            <label>Male</label>
+            <input class="gender-format" type="radio" name="sex" />
+          </div>
+          <div class="gender-selector">
+            <label>Custom</label>
+            <input class="gender-format" type="radio" name="sex" />
+          </div>
+        </div>
+        <div>
+          <p class="toc">
+            By clicking Sign Up, you agree to our<a href="#"> Terms</a>,
+            <a href="#"> Data Policy</a> and <a href="#">Cookie Policy</a>.
+            You<br />
+            may receive SMS notifications from us and can opt out at any time.
+          </p>
+        </div>
+        <div class="sign-up-btn-div">
+          <button class="sign-up-btn">Sign Up</button>
+        </div>
+      </form>
     </div>
     <div class="section1">
+      <div class="leftCol">
+        <div class="logo">
+          <img
+            id="fb_logo "
+            src="https://www.facebook.com/rsrc.php/y8/r/dF5SId3UHWd.svg"
+            alt="Facebook"
+          />
 
-        <div class="leftCol">
-            <div class="logo"><img id="fb_logo " src="https://www.facebook.com/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
-
-                <h2 class="logoText">Facebook helps you connect and share<br> with the people in your life.</h2>
-
-            </div>
+          <h2 class="logoText">
+            Facebook helps you connect and share<br />
+            with the people in your life.
+          </h2>
         </div>
+      </div>
 
+      <div class="rightCol">
+        <div id="login">
+          <form class="login">
+            <input
+              class="inputBox"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email address or phone number"
+            />
+            <input
+              class="inputBox"
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+            />
+            <button class="loginButton">Log In</button>
+            <a href="#">Forgotten password?</a>
 
-        <div class="rightCol">
-            <div id="login">
-                <form class="login">
-                    <input class="inputBox" type="email" id="email" name="email" placeholder="Email address or phone number">
-                    <input class="inputBox" type="password" id="password" name="password" placeholder="Password">
-                    <button class="loginButton">Log In</button>
-                    <a href="#">Forgotten password?</a>
-
-
-                    <hr>
-                    <button class="createAccount">Create New Account</button>
-
-                </form>
-            </div>
-
+            <hr />
+            <button class="createAccount">Create New Account</button>
+          </form>
         </div>
-
-
-
-
-
-
-
+      </div>
     </div>
     <footer>
-
-
-
-
-        <div id="pageFooter">
-            <ul class="uiList">
-                <li>English (UK)</li>
-                <li><a class="_sv4" href="#" title="Urdu">اردو</a></li>
-                <li><a class="_sv4" href="#" title="Pashto">پښتو</a></li>
-                <li><a class="_sv4" href="#" title="Arabic">العربية</a></li>
-                <li><a class="_sv4" dir="ltr" href="#" title="Hindi">हिन्दी</a></li>
-                <li><a class="_sv4" href="#" title="Bengali">বাংলা</a></li>
-                <li><a class="_sv4" href="#" title="Punjabi">ਪੰਜਾਬੀ</a></li>
-                <li><a class="_sv4" href="#" title="Persian">فارسی</a></li>
-                <li><a class="_sv4" href="#" title="Gujarati">ગુજરાતી</a></li>
-                <li><a class="_sv4" href="#" title="German">Deutsch</a></li>
-                <li><a class="_sv4" href="#" title="Spanish">Español</a></li>
-                <li><a role="button" class="_42ft _4jy0 _517i _517h _51sy" rel="dialog" ajaxify="/settings/language/language/?uri=https%3A%2F%2Fes-la.facebook.com%2F&amp;source=www_list_selector_more" href="#" title="Show more languages"><i class="img sp_gMujFo71RwJ sx_25f620"></i></a></li>
-            </ul>
-            <hr>
-            <div id="pageFooterChildren">
-                <ul class="uiList">
-                    <li><a href="/reg/" title="Sign up for Facebook">Sign Up</a></li>
-                    <li><a href="/login/" title="Log in to Facebook">Log In</a></li>
-                    <li><a href="https://messenger.com/" title="Take a look at Messenger.">Messenger</a></li>
-                    <li><a href="/lite/" title="Facebook Lite for Android.">Facebook Lite</a></li>
-                    <li><a href="https://www.facebook.com/watch/" title="Browse our Watch videos.">Watch</a></li>
-                    <li><a href="/places/" title="Take a look at popular places on Facebook.">Places</a></li>
-                    <li><a href="/games/" title="Check out Facebook games.">Games</a></li>
-                    <li><a href="/marketplace/" title="Buy and sell on Facebook Marketplace.">Marketplace</a></li>
-                    <li><a href="https://pay.facebook.com/" title="Learn more about Facebook Pay" target="_blank">Facebook
-                        Pay</a></li>
-                    <li><a href="https://www.oculus.com/" title="Learn more about Oculus" target="_blank">Oculus</a></li>
-                    <li><a href="https://portal.facebook.com/" title="Learn more about Facebook Portal" target="_blank">Portal</a></li>
-                    <li><a href="https://www.instagram.com/" title="Take a look at Instagram" target="_blank" rel="nofollow" data-lynx-mode="asynclazy" data-lynx-uri="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&amp;h=AT3Hfjj5IO2O7cc70mLxsiZJoh55Vs-TapLz1T6Vsq43HFId3O--MJT09QklngxxnAoYL_wY1N2DMOyGQTQFKMBMHJ9yjv3IXUjsT9YeLlzaM0zypvOq8qcTcQJCHLB1jSGb91m7wLeo9e2LlTzVEA">Instagram</a>
-                    </li>
-                    <li><a href="https://www.bulletin.com/" title="Take a look at Bulletin newsletter">Bulletin</a></li>
-                    <li><a href="/local/lists/245019872666104/" title="Browse our Local Lists directory.">Local</a></li>
-                    <li><a href="/fundraisers/" title="Donate to worthy causes.">Fundraisers</a></li>
-                    <li><a href="/biz/directory/" title="Browse our Facebook Services directory.">Services</a></li>
-                    <li><a href="/votinginformationcenter/?entry_point=c2l0ZQ%3D%3D" title="See the Voting Information Centre">Voting Information Centre</a></li>
-                    <li><a href="/groups/explore/" title="Explore our groups.">Groups</a></li>
-                    <li><a href="https://about.facebook.com/" accesskey="8" title="Read our blog, discover the resource centre and find job opportunities.">About</a></li>
-                    <li><a href="/ad_campaign/landing.php?placement=pflo&amp;campaign_id=402047449186&amp;nav_source=unknown&amp;extra_1=auto" title="Advertise on Facebook">Create ad</a></li>
-                    <li><a href="/pages/create/?ref_type=site_footer" title="Create a Page">Create Page</a></li>
-                    <li><a href="https://developers.facebook.com/?ref=pf" title="Develop on our platform.">Developers</a>
-                    </li>
-                    <li><a href="/careers/?ref=pf" title="Make your next career move to our brilliant company.">Careers</a>
-                    </li>
-                    <li><a data-nocookies="1" href="/privacy/explanation/" title="Learn about your privacy and Facebook.">Privacy</a></li>
-                    <li><a href="/policies/cookies/" title="Learn about cookies and Facebook." data-nocookies="1">Cookies</a>
-                    </li>
-                    <li><a class="_41ug" data-nocookies="1" href="https://www.facebook.com/help/568137493302217" title="Learn about AdChoices.">AdChoices<i class="img sp_gMujFo71RwJ sx_bdef52"></i></a></li>
-                    <li><a data-nocookies="1" href="/policies?ref=pf" accesskey="9" title="Review our terms and policies.">Terms</a></li>
-                    <li><a href="/help/?ref=pf" accesskey="0" title="Visit our Help Centre.">Help</a></li>
-                    <li><a accesskey="6" class="accessible_elem" href="/settings" title="View and edit your Facebook settings.">Settings</a></li>
-                    <li><a accesskey="7" class="accessible_elem" href="/allactivity?privacy_source=activity_log_top_menu" title="View your activity log">Activity log</a></li>
-                </ul>
-            </div>
-            <div class="copyright">
-                <div><small> Meta © 2022</small></div>
-            </div>
+      <div id="pageFooter">
+        <ul class="uiList">
+          <li>English (UK)</li>
+          <li><a class="_sv4" href="#" title="Urdu">اردو</a></li>
+          <li><a class="_sv4" href="#" title="Pashto">پښتو</a></li>
+          <li><a class="_sv4" href="#" title="Arabic">العربية</a></li>
+          <li><a class="_sv4" dir="ltr" href="#" title="Hindi">हिन्दी</a></li>
+          <li><a class="_sv4" href="#" title="Bengali">বাংলা</a></li>
+          <li><a class="_sv4" href="#" title="Punjabi">ਪੰਜਾਬੀ</a></li>
+          <li><a class="_sv4" href="#" title="Persian">فارسی</a></li>
+          <li><a class="_sv4" href="#" title="Gujarati">ગુજરાતી</a></li>
+          <li><a class="_sv4" href="#" title="German">Deutsch</a></li>
+          <li><a class="_sv4" href="#" title="Spanish">Español</a></li>
+          <li>
+            <a
+              role="button"
+              class="_42ft _4jy0 _517i _517h _51sy"
+              rel="dialog"
+              ajaxify="/settings/language/language/?uri=https%3A%2F%2Fes-la.facebook.com%2F&amp;source=www_list_selector_more"
+              href="#"
+              title="Show more languages"
+              ><i class="img sp_gMujFo71RwJ sx_25f620"></i
+            ></a>
+          </li>
+        </ul>
+        <hr />
+        <div id="pageFooterChildren">
+          <ul class="uiList">
+            <li><a href="/reg/" title="Sign up for Facebook">Sign Up</a></li>
+            <li><a href="/login/" title="Log in to Facebook">Log In</a></li>
+            <li>
+              <a href="https://messenger.com/" title="Take a look at Messenger."
+                >Messenger</a
+              >
+            </li>
+            <li>
+              <a href="/lite/" title="Facebook Lite for Android."
+                >Facebook Lite</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/watch/"
+                title="Browse our Watch videos."
+                >Watch</a
+              >
+            </li>
+            <li>
+              <a
+                href="/places/"
+                title="Take a look at popular places on Facebook."
+                >Places</a
+              >
+            </li>
+            <li>
+              <a href="/games/" title="Check out Facebook games.">Games</a>
+            </li>
+            <li>
+              <a
+                href="/marketplace/"
+                title="Buy and sell on Facebook Marketplace."
+                >Marketplace</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://pay.facebook.com/"
+                title="Learn more about Facebook Pay"
+                target="_blank"
+                >Facebook Pay</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.oculus.com/"
+                title="Learn more about Oculus"
+                target="_blank"
+                >Oculus</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://portal.facebook.com/"
+                title="Learn more about Facebook Portal"
+                target="_blank"
+                >Portal</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/"
+                title="Take a look at Instagram"
+                target="_blank"
+                rel="nofollow"
+                data-lynx-mode="asynclazy"
+                data-lynx-uri="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&amp;h=AT3Hfjj5IO2O7cc70mLxsiZJoh55Vs-TapLz1T6Vsq43HFId3O--MJT09QklngxxnAoYL_wY1N2DMOyGQTQFKMBMHJ9yjv3IXUjsT9YeLlzaM0zypvOq8qcTcQJCHLB1jSGb91m7wLeo9e2LlTzVEA"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.bulletin.com/"
+                title="Take a look at Bulletin newsletter"
+                >Bulletin</a
+              >
+            </li>
+            <li>
+              <a
+                href="/local/lists/245019872666104/"
+                title="Browse our Local Lists directory."
+                >Local</a
+              >
+            </li>
+            <li>
+              <a href="/fundraisers/" title="Donate to worthy causes."
+                >Fundraisers</a
+              >
+            </li>
+            <li>
+              <a
+                href="/biz/directory/"
+                title="Browse our Facebook Services directory."
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="/votinginformationcenter/?entry_point=c2l0ZQ%3D%3D"
+                title="See the Voting Information Centre"
+                >Voting Information Centre</a
+              >
+            </li>
+            <li>
+              <a href="/groups/explore/" title="Explore our groups.">Groups</a>
+            </li>
+            <li>
+              <a
+                href="https://about.facebook.com/"
+                accesskey="8"
+                title="Read our blog, discover the resource centre and find job opportunities."
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="/ad_campaign/landing.php?placement=pflo&amp;campaign_id=402047449186&amp;nav_source=unknown&amp;extra_1=auto"
+                title="Advertise on Facebook"
+                >Create ad</a
+              >
+            </li>
+            <li>
+              <a
+                href="/pages/create/?ref_type=site_footer"
+                title="Create a Page"
+                >Create Page</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://developers.facebook.com/?ref=pf"
+                title="Develop on our platform."
+                >Developers</a
+              >
+            </li>
+            <li>
+              <a
+                href="/careers/?ref=pf"
+                title="Make your next career move to our brilliant company."
+                >Careers</a
+              >
+            </li>
+            <li>
+              <a
+                data-nocookies="1"
+                href="/privacy/explanation/"
+                title="Learn about your privacy and Facebook."
+                >Privacy</a
+              >
+            </li>
+            <li>
+              <a
+                href="/policies/cookies/"
+                title="Learn about cookies and Facebook."
+                data-nocookies="1"
+                >Cookies</a
+              >
+            </li>
+            <li>
+              <a
+                class="_41ug"
+                data-nocookies="1"
+                href="https://www.facebook.com/help/568137493302217"
+                title="Learn about AdChoices."
+                >AdChoices<i class="img sp_gMujFo71RwJ sx_bdef52"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                data-nocookies="1"
+                href="/policies?ref=pf"
+                accesskey="9"
+                title="Review our terms and policies."
+                >Terms</a
+              >
+            </li>
+            <li>
+              <a
+                href="/help/?ref=pf"
+                accesskey="0"
+                title="Visit our Help Centre."
+                >Help</a
+              >
+            </li>
+            <li>
+              <a
+                accesskey="6"
+                class="accessible_elem"
+                href="/settings"
+                title="View and edit your Facebook settings."
+                >Settings</a
+              >
+            </li>
+            <li>
+              <a
+                accesskey="7"
+                class="accessible_elem"
+                href="/allactivity?privacy_source=activity_log_top_menu"
+                title="View your activity log"
+                >Activity log</a
+              >
+            </li>
+          </ul>
         </div>
-
-
-
-
+        <div class="copyright">
+          <div><small> Meta © 2022</small></div>
+        </div>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
